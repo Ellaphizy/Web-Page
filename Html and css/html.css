@@ -1,0 +1,156 @@
+
+
+body /* This is the whole body */
+{
+	background-color:#ffffff; /* white which represents purity */
+}
+
+#container /* it contains or holds everything */
+{
+	width:900px; height:0px;
+	background-color:#ffffff; 
+	margin:auto;
+}
+
+#header /* This contains the logo and the company name */
+{
+	width:900px; height:130px;
+	background-color:#d3d5d4;
+}
+
+#logo /* This applies to the logo */
+{
+	width:300px; height:130px;
+	background-color:#d3d5d4;
+    float:left;  /* left */
+}
+
+#title   /* The title which is SUNNYBROWN'S SHOE */
+{
+	width:600px; height:130px;
+	background-color:#d3d5d4;
+	margin:auto; color:#000000;
+	float:right; line-height:110px; /* right */
+	text-align:left;
+}
+
+#logo_image /* This applies to the content of the logo */
+{
+	align-content:center;   /* The content i.e SB is center align */
+}
+
+
+#navigation /* This applies to the home, products and about us */
+{
+	width:900px; height:50px;
+	background-color:#d3d5d4;
+	margin-top:5px;
+	
+}
+#hyper_links
+{
+	width:350px; height:50px;
+	background-color:#d3d5d4; /* This color hover on the navigation on clicked */
+	float:left;
+}
+#search /*  This applies to the search button at the top */
+{
+	width:550px; height:50px;
+	background-color:#d3d5d4;
+	float:right;
+}
+#search_bar /* The writeable area near the search button */
+{
+	margin-top:5px;
+	margin-left: 300px;
+}
+
+
+#contents /* This is the inner content where the summer clearance sales is on the home page */
+{
+	width:900px; height:200;
+	background-color:#ffffff;
+	margin-top:5px;
+}
+
+#content_down /* This is the second content where the shoes are on the home page */
+{
+	width:900px; height:0px;
+	background-color:#ffffff;
+}
+
+#footer /* This hold the footer, include left and right footer */
+{
+	width:900px; height:130;
+	background-color:#686666;
+}
+
+#footer_left /* This holds the Find us */
+{
+	width:300px; height:130px;
+	background-color:#686666;
+	float:left;  
+}
+
+#footer_right /* This holds the middle footer and the connect us  */ 
+{
+	width:600px; height:130px;
+	background-color:#686666;
+	float:right;
+}
+
+#brown /* Aligns the text in footer_left to the left */
+{
+	margin-left:20px;
+}
+
+#footer_right_in /* A container that is in between the footer-right and footer-left */
+{
+	width:300px; height:130px;
+	background-color:#686666;
+	float:left;
+}
+#footer_right_out /* Hold the footer that contains the connect us  */
+{
+	width:300px; height:130px;
+	background-color:#686666;
+	float:right;
+}
+
+
+#menu_item /* It applys to the navigation list */
+{ 
+	text-align:left; 
+}
+
+#menu_item li /* It makes the navigation straight text */
+{
+	list-style:none;
+	display:inline;
+	padding: 15px 15px;
+	margin-left:2px;
+}
+
+#menu_item a /* It conceals the underlined navigation unless the mouse hovers over it */
+{
+	text-decoration:none;
+	font-size:16px; color:#000000;
+}
+
+#menu_item a:hover /* This make the navigation show an hyperlink color */
+{
+	font-size:18px;
+	font-weight:bolder;
+	text-decoration:underline; /* It underlines the navigation */
+	color:#1F2FD9; /* This color hovers over it when a mouse comes close to it */
+}
+#find_us /* Applies to the find us text */
+{ 
+	color:#F9F7F7; padding:0px; 
+	margin-left:20px; line-height:5px;
+}
+
+html /* This applies the sans-serif style to all text*/
+{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
